@@ -1,0 +1,38 @@
+import Navbar from "../components/common/Navbar";
+import HeroSection from "../components/hero/HeroSection";
+import About from "../components/about/About";
+import Domains from "../components/Phase1/Phase1";
+import Events from "../components/Scenario/Scenario";
+import Teams from "../components/Teams/Teams";
+import Contact from "../components/contact/Contact";
+const Home = () => {
+  return (
+    <div>
+      <Navbar />
+
+      <div data-section="home">
+        <HeroSection />
+      </div>
+
+      <div data-section="about">
+        <About />
+      </div>
+      <div data-section="domains">
+        <Domains />
+      </div>
+
+      <div data-section="events">
+        <Events />
+      </div>
+
+      <div data-section="teams">
+        <Teams />
+      </div>
+      <div data-section="contact">
+        <Contact />
+      </div>
+    </div>
+  );
+};
+
+export default Home;
