@@ -1,6 +1,6 @@
 # PayProtect — Event-Driven Parametric Protection Engine
 
-##  Abstract
+##  Abstract (PHASE 2)
 
 PayProtect is a  **AI-powered parametric protection system** designed to provide **instant financial safety nets** for gig workers and dynamic income earners.
 
